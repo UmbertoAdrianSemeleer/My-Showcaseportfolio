@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="images/javascript.svg" />
+    <link rel="stylesheet" href="css/contactMe.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+    <!-- Main Content Section -->
+    <main>
+      <!-- About Me Section -->
+      <section id="projects">
+        <h2>About me</h2>
+        <div class="project-list">
+          <!-- Example Project Item -->
+          <div class="project-item">
+            <h3>Contact Me</h3>
+            <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              
+              <button type="submit" class="contact-button">Send Message</button>
+            </form>
+            <p>Alternatively, you can reach me on <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Umberto Semeleer. All rights reserved.</p>
+    </footer>
+    
+    <!-- JavaScript File -->
+    <div id="app"></div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
